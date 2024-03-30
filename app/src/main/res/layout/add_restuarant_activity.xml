@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Review Form"
+        android:gravity="center_horizontal"
+        android:layout_margin="40dp"
+        android:padding="30dp"
+        android:textSize="40dp"
+
+
+        />
+    <EditText
+        android:id="@+id/restaurantNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Restaurant Name"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:inputType="text"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/ratingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
