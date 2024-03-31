@@ -17,7 +17,6 @@ public class AddRestaurantActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_restuarant_activity);
-
         restaurantNameEditText = findViewById(R.id.restaurantNameEditText);
         phoneNumberEditText = findViewById(R.id.phoneNumberEditText);
         locationEditText = findViewById(R.id.locationEditText);
@@ -37,7 +36,6 @@ public class AddRestaurantActivity extends AppCompatActivity {
 
                 // Create a new Restaurant object
                 Restuarant restaurant = new Restuarant(name, location, phone, description, rating);
-
                 // Pass the Restaurant object back to MainActivity
                 Intent resultIntent = new Intent();
                 resultIntent.putExtra("restaurant", restaurant);

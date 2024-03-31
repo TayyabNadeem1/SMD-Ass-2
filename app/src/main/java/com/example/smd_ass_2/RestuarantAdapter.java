@@ -56,7 +56,6 @@ public class RestuarantAdapter extends RecyclerView.Adapter<RestuarantAdapter.Vi
         holder.tvDescription.setText(restuarant.get(position).getDescription());
         holder.tvRating.setText(restuarant.get(position).getRating());
 
-
     }
 
     @Override

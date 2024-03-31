@@ -21,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerView.LayoutManager manager;
     RecyclerView.Adapter myAdapter;
-
     ArrayList<Restuarant> restuarant;
-
     Button addButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,14 +44,12 @@ public class MainActivity extends AppCompatActivity {
         manager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(manager);
         restuarant = new ArrayList<>();
+
         restuarant.add(new Restuarant("KFC","Model Town","111 1111111","its finger licking good","5.0"));
         restuarant.add(new Restuarant("McDonalds","Model Town","111 00000000","its finger licking good","4.0"));
 
-
         myAdapter = new RestuarantAdapter(this,restuarant);
         recyclerView.setAdapter(myAdapter);
-
-
 
     }
 
@@ -64,9 +60,7 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
 
                 Restuarant newRestaurant = data.getParcelableExtra("restaurant");
-
                 restuarant.add(newRestaurant);
-
                 myAdapter.notifyDataSetChanged();
             }
         }
