@@ -12,7 +12,6 @@ public class AddRestaurantActivity extends AppCompatActivity {
 
     EditText restaurantNameEditText, phoneNumberEditText, locationEditText, descriptionEditText, ratingEditText;
     Button submitBtn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
