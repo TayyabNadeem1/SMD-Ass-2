@@ -12,7 +12,6 @@ public class Restuarant implements Parcelable {
 
     public Restuarant() {
     }
-
     public Restuarant(String name, String location, String phone, String description, String rating) {
         this.name = name;
         this.location = location;

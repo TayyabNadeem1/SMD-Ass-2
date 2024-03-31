@@ -23,7 +23,6 @@ public class AddRestaurantActivity extends AppCompatActivity {
         descriptionEditText = findViewById(R.id.descriptionEditText);
         ratingEditText = findViewById(R.id.ratingEditText);
         submitBtn = findViewById(R.id.submitBtn);
-
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

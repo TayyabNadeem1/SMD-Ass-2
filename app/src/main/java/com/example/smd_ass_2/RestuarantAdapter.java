@@ -12,17 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class RestuarantAdapter extends RecyclerView.Adapter<RestuarantAdapter.ViewHolder> {
-
     ArrayList<Restuarant> restuarant;
-
     public RestuarantAdapter(Context context, ArrayList<Restuarant> list){
         restuarant=list;
     }
-
     public class ViewHolder extends RecyclerView.ViewHolder {
-
         TextView tvName, tvLocation, tvPhone, tvDescription, tvRating;
-
         public ViewHolder(View itemView) {
             super(itemView);
             tvName = itemView.findViewById(R.id.nameText);
@@ -30,13 +25,11 @@ public class RestuarantAdapter extends RecyclerView.Adapter<RestuarantAdapter.Vi
             tvPhone = itemView.findViewById(R.id.phoneText);
             tvDescription = itemView.findViewById(R.id.descriptionText);
             tvRating = itemView.findViewById(R.id.ratingText);
-
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
                 }
-
             });
         }
     }
