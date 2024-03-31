@@ -11,13 +11,9 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         >
-
-
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            >
+            android:layout_height="wrap_content">
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -27,13 +23,13 @@
                 android:id="@+id/ratingText"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-
                 android:paddingLeft="10dp"
                 android:gravity="center_vertical"
                 android:padding="40dp"
                 android:text="rating"
                 android:background="#EF9816"
                 />
+
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
@@ -42,8 +38,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
-            >
+            android:layout_marginTop="2dp">
 
             <ImageView
                 android:layout_height="wrap_content"
@@ -58,16 +53,12 @@
             <ImageView
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:src="@drawable/phone_icon"
-
-                />
+                android:src="@drawable/phone_icon" />
 
             <ImageView
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:src="@drawable/description_icon"
-
-                />
+                android:src="@drawable/description_icon" />
         </LinearLayout>
 
         <LinearLayout
@@ -119,7 +110,6 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
                 android:src="@drawable/phone_icon"
-
                 />
 
             <ImageView
